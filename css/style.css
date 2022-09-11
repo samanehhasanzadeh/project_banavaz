@@ -537,7 +537,7 @@ h4 {
 .feature__mobile__description .feature__mobile__btn {
 }
 .feature__mobile__img .feature__mobile__img__into {
-  margin-top: 5rem;
+  margin: 2rem auto;
   margin-left: auto;
   margin-right: auto;
   display: block;
