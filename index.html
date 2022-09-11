@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/font.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>پروژه بانواز</title>
+  </head>
+  <body>
+    <!-- navbar-->
+    <header class="main-header">
+      <nav class="nav container">
+        <a href="#" class="">
+          <picture>
+            <source
+              srcset="./assets/image/mobile/Logo.png"
+              type="image/png"
+              media="(max-width:768px)"
+              class="navbar__logo"
+            />
+            <source
+              srcset="./assets/image/mobile/Logo.webp"
+              type="image/webp"
+              media="(max-width:768px) "
+              class="navbar__logo"
+            />
+            <source
+              srcset="./assets/image/Logo.png"
+              type="image/png"
+              media="(min-width:1024px) "
+              class="navbar__logo"
+            />
+            <source
+              srcset="./assets/image/Logo.webp"
+              type="image/webp"
+              media="(min-width:1024px) "
+              class="navbar__logo"
+            />
+            <img
+              src="./assets/image/mobile/Logo.png"
+              alt="banavaz-home"
+              class="navbar__logo"
+            />
+          </picture>
+        </a>
+        <div class="nav__buttons">
+          <button class="btn btn--primary__color">ورود به داشبورد</button>
+          <button class="btn btn--primary__white">دانلود اپلیکیشن</button>
+
+          <div class="nav__toggler">
+            <div class="bar bar-one"></div>
+            <div class="bar bar-two"></div>
+            <div class="bar bar-three"></div>
+          </div>
+        </div>
+
+        <ul class="list nav__list">
+          <li class="nav__item">
+            <a href="#">خانه</a>
+          </li>
+          <li class="nav__item"><a href="#">فروشگاه</a></li>
+          <li class="nav__item">
+            <a href="#">درباره ما</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--feature home-->
+
+    <section class="feature__home block container">
+      <div class="feature__home__img" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="feature__home__img__hero">
+          <picture>
+            <source
+              srcset="./assets/image/mobile/home-mobile.png"
+              type="image/png"
+              media="(max-width: 768px)"
+              class="feature__home__img__into"
+            />
+            <source
+              srcset="./assets/image/mobile/home-mobile.webp"
+              type="image/webp"
+              media="(max-width: 768px) "
+              class="feature__home__img__into"
+            />
+            <source
+              srcset="./assets/image/home.png"
+              type="image/png"
+              media="(min-width: 1024px) "
+              class="feature__home__img__into"
+            />
+            <source
+              srcset="./assets/image/home.webp"
+              type="image/webp"
+              media="(min-width: 1024px) "
+              class="feature__home__img__into"
+            />
+            <img
+              src="./assets/image/home.png"
+              alt="banavaz__baby"
+              class="feature__home__img__into"
+            />
+          </picture>
+          <div class="feature__home__img__mainpart">
+            <picture>
+              <source
+                srcset="./assets/image/mobile/iPhone .png"
+                type="image/png"
+                media="(max-width:768px)"
+                class="feature__home__img__part"
+              />
+              <source
+                srcset="./assets/image/mobile/iPhone .webp"
+                type="image/webp"
+                media="(max-width:768px) "
+                class="feature__home__img__part"
+              />
+              <source
+                srcset="./assets/image/iphone.png"
+                type="image/png"
+                media="(min-width:1024px) "
+                class="feature__home__img__part"
+              />
+              <source
+                srcset="./assets/image/iphone.webp"
+                type="image/webp"
+                media="(min-width:1024px) "
+                class="feature__home__img__part"
+              />
+              <img
+                src="./assets/image/mobile/iPhone .png"
+                alt="banavaz-home"
+                class="feature__home__img__part"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+      <div class="feature__home__details">
+        <h2 class="feature__home__details__title">خیالت از خونه راحت!</h2>
+        <div class="feature__home__details__text">
+          <p class="feature__home__details__description">
+            بانواز واژه ای کردی به معنای با خبر ساختن با صدای بلند است. درست مثل
+            بانواز!
+          </p>
+          <p class="feature__home__details__description">
+            با سنسورهای بانواز از هیچ اتفاقی بی خبر نیستی.
+          </p>
+          <p class="feature__home__details__description">چه خونه باشی چه نه.</p>
+        </div>
+        <div class="feature__home__details__button">
+          <button class="btn btn--secondary__white">فروشگاه بانواز</button>
+        </div>
+      </div>
+    </section>
+    <!--  servicse -->
+    <section class="services container block__feature" data-aos="flip-down" data-aos-duration="1000">
+      <a href="" class="services__icon">
+        <img src="./assets/image/door.png" class="services__img" />
+        <p class="services__title">درب و پنجره</p>
+      </a>
+      <a href="" class="services__icon">
+        <img src="./assets/image/vegtable.png" class="services__img" />
+        <p class="services__title">گل و گیاه</p>
+      </a>
+      <a href="" class="services__icon">
+        <img src="./assets/image/electronic.png" class="services__img" />
+        <p class="services__title">وسایل برقی</p>
+      </a>
+      <a href="" class="services__icon">
+        <img src="./assets/image/light.png" class="services__img" />
+        <p class="services__title">روشنایی</p>
+      </a>
+      <a href="" class="services__icon">
+        <img src="./assets/image/warm.png" class="services__img" />
+        <p class="services__title">گرمایشی</p>
+      </a>
+      <a href="" class="services__icon">
+        <img src="./assets/image/bone.png" class="services__img" />
+        <p class="services__title">حیوانات</p>
+      </a>
+    </section>
+
+    <!--feature__hub-->
+    <section class="feature__hub container">
+      <div class="feature__img__hub">
+        <picture>
+          <source
+            srcset="./assets/image/mobile/hub.webp"
+            type="image/webp"
+            media="(max-width: 1024px)"
+            class="feature__hub__img"
+          />
+          <source
+            srcset="./assets/image/hub.webp"
+            type="image/webp"
+            media="(min-width: 1024px)"
+            class="feature__hub__img"
+          />
+          <source
+            srcset="./assets/image/hub.png"
+            type="image/png"
+            media="(min-width: 1024px)"
+            class="feature__hub__img"
+          />
+          <source
+            srcset="./assets/image/mobile/hub.png"
+            type="image/png"
+            media="(max-width: 1024px)"
+            class="feature__hub__img"
+          />
+
+          <img
+            src="./assets/image/hub.png"
+            alt="photo"
+            class="feature__hub__img"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          />
+        </picture>
+      </div>
+      <div class="feature__title_hub">
+        <h1 class="feature__title__hubh1">مدیریت با دستگاه مرکزی</h1>
+      </div>
+      <div class="feature__text__hub">
+        <p class="feature__text__hubtext">
+          بانواز برای مدیریت و کنترل سنسورهای خودش از یک دستگاه مرکزی استفاده
+          میکنه که همه چیز تحت کنترل همین دستگاه مرکزیه. دستگاه به کمک اینترنت
+          به گوشی شا متصل میشه و شما میتونین همه چیز رو تحت کنترل خودتون بگیرین.
+        </p>
+      </div>
+    </section>
+
+    <!--feature__baby-->
+    <section class="feature__baby__main">
+      <div class="feature__baby container " >
+        <div class="feature__baby__img">
+          <picture>
+            <source
+              srcset="./assets/image/mobile/babym.png"
+              type="image/png"
+              media="(max-width: 768px)"
+              class="feature__baby__img__into"
+            />
+            <source
+              srcset="./assets/image/mobile/baby.webp"
+              type="image/webp"
+              media="(max-width: 768px) "
+              class="feature__baby__img__into"
+            />
+            <source
+              srcset="./assets/image/baby.png"
+              type="image/png"
+              media="(min-width: 768px) "
+              class="feature__baby__img__into"
+            />
+            <source
+              srcset="./assets/image/baby.webp"
+              type="image/webp"
+              media="(min-width: 768px) "
+              class="feature__baby__img__into"
+            />
+            <img
+              src="./assets/image/baby.png"
+              alt="banavaz__baby"
+              class="feature__baby__img__into"
+            />
+          </picture>
+        </div>
+        <div class="feature__baby__details">
+          <h4 class="feature__baby__detail__title">
+            دارای تنظیمات مخصوص کودکان!
+          </h4>
+          <p class="feature__baby__detail__description">
+            نگران تغییر تنظیمات بانواز توسط فرزند عزیزت نباش!
+          </p>
+          <button class="btn btn--secondary__color">فروشگاه بانواز</button>
+        </div>
+      </div>
+    </section>
+   
+
+    <!--feature__mobile-->
+    <section  class="feature__mobile__main">
+      <div class="feature__mobile container ">
+        <div class="feature__mobile__img">
+          <picture>
+            <source
+              srcset="./assets/image/mobile/mobile.png"
+              type="image/png"
+              media="(max-width: 768px)"
+              class="feature__mobile__img__into"
+            />
+            <source
+              srcset="./assets/image/mobile/mobile.png"
+              type="image/webp"
+              media="(max-width: 768px) "
+              class="feature__mobile__img__into"
+            />
+            <source
+              srcset="./assets/image/mobile.png"
+              type="image/png"
+              media="(min-width: 768px) "
+              class="feature__mobile__img__into"
+            />
+            <source
+              srcset="./assets/image/mobile.png"
+              type="image/webp"
+              media="(min-width: 768px) "
+              class="feature__mobile__img__into"
+            />
+            <img
+              src="./assets/image/mobile.png"
+              alt="banavaz__baby"
+              class="feature__mobile__img__into"
+            />
+          </picture>
+        </div>
+  
+        <div class="feature__mobile__description">
+          <div class="feature__mobile__title">
+            <h2>مدیریت خانه روی گوشی!</h2>
+          </div>
+          <div class="feature__mobile__text">
+            <p>
+              با دانلود اپلیکیشن بانواز می تونی تمامی سنسورها رو، روی گوشیت مشاهده
+              و کنترل کنی.
+            </p>
+          </div>
+          <div class="feature__mobile__btn">
+            <button class="btn btn--primary__white">دانلود اپلیکیشن</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--feature capability-->
+    <section class="feature__capability__main">
+      <div class="feature__capability container ">
+        <h2 class="feature__capability__title">
+          قابلیت های ویژه بانواز
+        </h2>
+      <div class="feature__capability__total">
+        <div class="feature__capability__cat" data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+          <div class="feature__capability__img">
+            <picture>
+              <source
+                srcset="./assets/image/mobile/cat.png"
+                type="image/png"
+                media="(max-width: 768px)"
+                class="feature__capability__element__img"
+              />
+              <source
+                srcset="./assets/image/mobile/cat.png"
+                type="image/webp"
+                media="(max-width: 768px) "
+                class="feature__capability__element__img"
+              />
+              <source
+                srcset="./assets/image/cat.png"
+                type="image/png"
+                media="(min-width: 768px) "
+                class="feature__capability__element__img"
+              />
+              <source
+                srcset="./assets/image/cat.png"
+                type="image/webp"
+                media="(min-width: 768px) "
+                class="feature__capability__element__img"
+              />
+              <img
+              src="./assets/image/cat.png"
+              alt="banavaz_cat"
+              class="feature__capability__element__img"
+            />
+            </picture>
+            
+          </div>
+          <div>
+            <p class="feature__capability__element__text">
+              سنسورهایی که برای حیوانات خانگی شما وصل میشن میتونن با هوش مصنوعی
+              گرسنه بودن اون رو تشخیص بدن!
+            </p>
+          </div>
+        </div>
+        <div class="feature__capability__plant" data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        data-aos-delay="300">
+          <div class="feature__capability__img">
+            <picture>
+              <source
+                srcset="./assets/image/mobile/Plant.png"
+                type="image/png"
+                media="(max-width: 768px)"
+                class="feature__capability__element__img"
+              />
+              <source
+                srcset="./assets/image/mobile/Plant.png"
+                type="image/webp"
+                media="(max-width: 768px) "
+                class="feature__capability__element__img"
+              />
+              <source
+                srcset="./assets/image/plant.png"
+                type="image/png"
+                media="(min-width: 768px) "
+                class="feature__capability__element__img"
+              />
+              <source
+                srcset="./assets/image/plant.png"
+                type="image/webp"
+                media="(min-width: 768px) "
+                class="feature__capability__element__img"
+              />
+              <img
+              src="./assets/image/plant.png"
+              alt="banavaz_cat"
+              class="feature__capability__element__img"
+            />
+            </picture>
+            
+          </div>
+          <div>
+            <p class="feature__capability__element__text">
+            با محاسبه حرارت اطراف خاک گیاهان میشه فهمید کی باید دوباره به گیاهان اب بدی!
+            </p>
+          </div>
+        </div>
+        <div class="feature__capability__laptop" data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        data-aos-delay="600">
+          <div class="feature__capability__img">
+            <picture>
+              <source
+                srcset="./assets/image/mobile/laptop.png"
+                type="image/png"
+                media="(max-width: 768px)"
+                class="feature__capability__element__img"
+              />
+              <source
+                srcset="./assets/image/mobile/laptop.png"
+                type="image/webp"
+                media="(max-width: 768px) "
+                class="feature__capability__element__img"
+              />
+              <source
+                srcset="./assets/image/laptop.png"
+                type="image/png"
+                media="(min-width: 768px) "
+                class="feature__capability__element__img"
+              />
+              <source
+                srcset="./assets/image/laptop.png"
+                type="image/webp"
+                media="(min-width: 768px) "
+                class="feature__capability__element__img"
+              />
+              <img
+              src="./assets/image/laptop.png"
+              alt="banavaz_cat"
+              class="feature__capability__element__img"
+            />
+            </picture>
+            
+          </div>
+          <div>
+            <p class="feature__capability__element__text">
+          میتونی مدت زمان روشن بودن دستگاه های الکتریکی رو کنترل کنی. یا حتی برای روشن بودن اونها از بانواز کمک بگیری.
+            </p>
+          </div>
+        </div>
+        <div class="feature__capability__door" data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        data-aos-delay="900">
+          <div class="feature__capability__img">
+            <picture>
+              <source
+                srcset="./assets/image/mobile/door.png"
+                type="image/png"
+                media="(max-width: 768px)"
+                class="feature__capability__element__img"
+              />
+              <source
+                srcset="./assets/image/mobile/door.png"
+                type="image/webp"
+                media="(max-width: 768px) "
+                class="feature__capability__element__img"
+              />
+              <source
+                srcset="./assets/image/door1.png"
+                type="image/png"
+                media="(min-width: 768px) "
+                class="feature__capability__element__img"
+              />
+              <source
+                srcset="./assets/image/door1.png"
+                type="image/webp"
+                media="(min-width: 768px) "
+                class="feature__capability__element__img"
+              />
+              <img
+              src="./assets/image/door1.png"
+              alt="banavaz_cat"
+              class="feature__capability__element__img"
+            />
+            </picture>
+            
+          </div>
+          <div>
+            <p class="feature__capability__element__text">
+           باز و بسته بودن درب ها و پنجره ها، تشخیص حضور انسان و کلی قابلیت دیگه در سنسورهای بانواز!
+            </p>
+          </div>
+        </div>
+             
+      </div>
+      </div>
+    </section>
+
+    <!--feature  logos-->
+    <section  class="feature__logos__main">
+      <div class="feature container " >
+        <div class="feature__detail">
+          <h2 class="feature__title">رفقای بانواز!</h2>
+          <p class="feature__text">ما افتخار همکاری با بیش از ده ها شرکت را در بانواز داریم.</p>
+        </div>
+        <div class="feature__img" data-aos="zoom-in" data-aos-duration="1000">
+          <picture>
+            <source
+              media="(max-width:1024px)"
+              type="image/png"
+              srcset="./assets/image/mobile/Logos.png"
+              class="feature__img_s"
+            />
+            <source
+              media="(max-width:1024px)"
+              type="image/webp"
+              srcset="./assets/image/mobile/Logos_11zon.webp"
+              class="feature__img_s"
+            />
+            <source
+              media="(min-width:1024px)"
+              type="image/png"
+              srcset="./assets/image/Logos.png"
+              class="feature__img_s"
+            />
+            <source
+              media="(min-width:1024px)"
+              type="image/webp"
+              srcset="./assets/image/Logos_11zon.webp"
+              class="feature__img_s"
+            />
+  
+            <img src="./assets/image/Logos.png" class="feature__img_s" alt="Flowers" style="width: auto" />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+<!--footer-->
+
+<section class="footer__main">
+  <div class="footer container block">
+    <div class="footer__group">
+      <!--part 1-->
+      <div class="footer__part1">
+        <h2 class="footer__title">بانواز</h2>
+        <div class="footer__list">
+          <ul class="footer__list__part">
+            <li class="footer__list__section">خانه</li>
+            <li class="footer__list__section">فروشگاه</li>
+            <li class="footer__list__section">ورود به داشبورد</li>
+          </ul>
+        </div>
+      </div>
+      <!--part2-->
+      <div class="footer__part1">
+        <h2 class="footer__title">فروشگاه</h2>
+        <div class="footer__list">
+          <ul class="footer__list__part">
+            <li class="footer__list__section">دستگاه مرکزی</li>
+            <li class="footer__list__section">سنسور داخلی</li>
+            <li class="footer__list__section">سنسور خارجی</li>
+          </ul>
+        </div>
+      </div>
+      <!--part3-->
+      <div class="footer__part1">
+        <h2 class="footer__title">بانواز</h2>
+        <div class="footer__list">
+          <ul class="footer__list__part">
+            <li class="footer__list__section">درباره بانواز</li>
+            <li class="footer__list__section">وبلاگ</li>
+            <li class="footer__list__section">موقعیت های شغلی</li>
+            <li class="footer__list__section">تماس با ما</li>
+          </ul>
+        </div>
+      </div>
+      <!--part4-->
+      <div class="footer__part1">
+        <h2 class="footer__title">دانلود اپلیکیشن</h2>
+        <div class="footer__btn"><img src="./assets/image/Badges.png"</div>
+      </div>
+    </div>
+  </div>
+  
+    <div class="footer__socialnet">
+      <div class="icons">
+        <svg class="icon">
+          <use
+            xlink:href="./assets/image/sprite.svg#square-google-plus-brands"
+          ></use></svg
+        ><svg class="icon">
+          <use
+            xlink:href="./assets/image/sprite.svg#square-twitter-brands"
+          ></use></svg
+        ><svg class="icon">
+          <use
+            xlink:href="./assets/image/sprite.svg#youtube-brands"
+          ></use></svg
+        ><svg class="icon">
+          <use
+            xlink:href="./assets/image/sprite.svg#square-instagram-brands"
+          ></use></svg
+        ><svg class="icon">
+          <use
+            xlink:href="./assets/image/sprite.svg#square-facebook-brands"
+          ></use>
+        </svg>
+      </div>
+      <div class="footer__security">
+        <p class="footer__security__text">تمامی حقوق متعلق به بانواز می باشد.</p>
+      </div>
+    </div>
+  
+  </div>
+</section>
+
+
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

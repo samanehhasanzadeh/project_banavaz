@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "iranyekan";
+    src: url("../assets/font/IRANYekanWebRegular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "iranyekan";
+    src: url("../assets/font/IRANYekanWebBold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+  }
+  body,button{
+    font-family: "iranyekan";
+  }
